@@ -25,8 +25,8 @@ default: &default
 development:
   <<: *default
   database: RubyTest_development
-  username: RubyTest
-  password: admin 
+  username: postgres
+  password: riyan28 
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -84,5 +84,5 @@ test:
 production:
   <<: *default
   database: RubyTest_production
-  username: admin
-  password: admin
+  username: postgres
+  password: riyan28
